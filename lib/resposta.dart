@@ -5,7 +5,7 @@ class Resposta extends StatelessWidget {
   final String texto;
   final void Function() fn;
 
-  Resposta({this.texto, this.fn});
+  Resposta(this.texto, this.fn);
 
   @override
   Widget build(BuildContext context) {
